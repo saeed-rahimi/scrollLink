@@ -16,7 +16,7 @@ console.log(targetSection);
                
                 window.scrollTo({
                     top: targetSection.offsetTop - 50, 
-                    left: targetSection.offsetLeft + 100,  
+                    
                     behavior: 'smooth'
                 });
             });
